@@ -7,13 +7,15 @@ license = "MIT License"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.10.0"
 ruff = "^0.4.5"
 pytest = "^8.2.1"
+ipdb = "^0.13.13"
+ipython = "^8.25.0"
 
 [build-system]
 requires = ["poetry-core"]
